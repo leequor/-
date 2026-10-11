@@ -1,5 +1,5 @@
 # 
-Improved meshy GLB downloader
+Improved meshy GLB downloader\n
 Tampermonkey required.
 
 
