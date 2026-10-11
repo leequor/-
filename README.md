@@ -1,19 +1,21 @@
 # 
 Improved meshy GLB downloader
 Tampermonkey required.
-// ==UserScript==
-// @name         Meshy GLB Decryptor + Roblox Export
-// @namespace    http://tampermonkey.net/
-// @version      3.0
-// @description  Capture Meshy GLB files and also save a Roblox-ready copy (PNG textures, baked UVs, no extensions)
-// @author       Youssef02
-// @match        https://*.meshy.ai/*
-// @run-at       document-starta
-// @grant        none
-// ==/UserScript==
 
-(function() {
-    'use strict';
+
+    // ==UserScript==
+    // @name         Meshy GLB Decryptor + Roblox Export
+    // @namespace    http://tampermonkey.net/
+    // @version      3.0
+    // @description  Capture Meshy GLB files and also save a Roblox-ready copy (PNG textures, baked UVs, no extensions)
+    // @author       Youssef02
+    // @match        https://*.meshy.ai/*
+    // @run-at       document-starta
+    // @grant        none
+    // ==/UserScript==
+
+    (function() {
+        'use strict';
 
     // Inject all interception code directly into the page context via a <script> tag.
     // This is required because Tampermonkey runs in an isolated sandbox — window.Worker
